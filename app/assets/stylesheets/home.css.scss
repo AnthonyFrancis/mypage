@@ -1,0 +1,151 @@
+body {
+    background: image-url('background.jpeg') 
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+@font-face {
+font-family: 'Georgia';
+src: url('assets/georgia');
+}
+
+h1, h2, h3, p, ul {
+	font-family: "georgia", "Arial Black", sans-serif
+	
+}
+
+h1, {
+	font-size: 72px;
+    color: black;
+}
+
+h3, {
+	font-size: 36px;
+	font-style: italic;
+	padding: 13px 0 20px;
+    color: black;
+}
+
+p, ul {
+	font-size: 18px;
+    color: black;
+}
+
+.page a {
+    color: #cf0001;
+    text-decoration: none;
+    border-bottom: 1px solid #cf0001;
+}
+
+.page {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding-right: 260px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+ul {
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-rendering: optimizeLegibility;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+.container {
+    width: 1110px;
+}
+
+footer ul li a {
+    display: block;
+    padding: 0 15px;
+    color: #999;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    display: block;
+    padding: 0 15px;
+    color: black;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 25px 0;
+    height: 0;
+}
+
+.imgpad {
+        padding-top: 70px;
+    }
+
+
+.projects a {
+    color: #cf0001;
+    text-decoration: none;
+    border-bottom: 1px solid #cf0001;
+}
+
+.product_container {
+    padding: 12px;
+    height: 100%;
+}
+
+.product_image {
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 156px;
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+
+.book_container {
+    padding: 12px;
+    height: 100%;
+}
+
+.book_image {
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 156px;
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
